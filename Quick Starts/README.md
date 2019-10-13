@@ -1,6 +1,45 @@
-# 欢迎使用Era.js引擎！
+# 快速开始（Quick Starts）
 
-## 引擎简介(Introduction)
+## 用Era.js开发自己的文字游戏最少需要几步？
+
+### 第一步：下载 Era.js 游戏引擎及开发依赖
+
+#### 下载 Python3.7
+
+[Python3 下载地址](https://www.python.org/downloads/windows/)
+
+<img src="1570965013343.png" alt="1570965013343" style="zoom: 50%;" />
+
+[Era.js 引擎下载地址](https://github.com/miswanting/Era.js/releases)
+
+### 第二步：工程初始化
+
+
+
+### 第三步：编写你自己的代码
+
+```python
+import erajs.api as a  # 导入引擎 API
+
+a.init()               # 游戏引擎初始化
+a.t('Hello World!')    # 显示文本
+```
+
+更加复杂的代码，参见[教程]()
+
+### 第四步：调试游戏
+
+## 用Era.js发布自己的文字游戏最少需要几步？
+
+### 第一步：打包游戏
+
+### 第二步：没了
+
+## 下一步
+
+- 教程：由浅入深，从基础开始学习引擎使用方法；
+- 文档：分专题了解
+- API 参考：
 
 [Era.js]() 是一个由 [Typescript]()+[Python]() 构建的、 以 [Python]()+[KJML]() 为游戏脚本的 ，基于 [Electron]() 程序平台和 [Semantic UI]() 样式库等技术开发的次世代跨平台“类Era”富文本游戏引擎。
 
